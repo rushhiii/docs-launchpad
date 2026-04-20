@@ -28,7 +28,8 @@ This repository is designed to be reused across product docs, SDK docs, API guid
 
 ## Project structure
 
-- `docs-site/` - application source
+- `src/` - Next.js app and docs UI components
+- `content/docs/` - Markdown and MDX documentation content
 - `.github/workflows/ci.yml` - CI pipeline (install, lint, typecheck, build)
 
 ## Quick start
@@ -36,7 +37,6 @@ This repository is designed to be reused across product docs, SDK docs, API guid
 1. Install dependencies:
 
 ```bash
-cd docs-site
 npm install
 ```
 
@@ -56,7 +56,7 @@ npm run dev
 
 ## Environment variables
 
-See `docs-site/.env.example`.
+See `.env.example`.
 
 - `NEXT_PUBLIC_SITE_URL` (required): production site URL used for canonical metadata and sitemap entries.
 - `GOOGLE_SITE_VERIFICATION` (optional): Google Search Console verification token.
@@ -64,7 +64,7 @@ See `docs-site/.env.example`.
 
 ## Scripts
 
-From `docs-site/`:
+From repository root:
 
 - `npm run dev` - start local dev server
 - `npm run build` - production build
@@ -77,7 +77,7 @@ From `docs-site/`:
 ## Deploy to Vercel
 
 1. Import this repository in Vercel.
-2. Set the project root directory to `docs-site`.
+2. Use the repository root as the project root directory.
 3. Add environment variables from `.env.example`.
 4. Deploy.
 5. Confirm `https://your-domain.com/robots.txt` and `https://your-domain.com/sitemap.xml` are reachable.
@@ -94,10 +94,10 @@ From `docs-site/`:
 
 ## Customize for your project
 
-1. Replace starter docs in `docs-site/content/docs`.
-2. Update branding and navigation links in `docs-site/src/components/docs`.
-3. Tune metadata defaults in `docs-site/src/app/layout.tsx`.
-4. Adjust visual tokens in `docs-site/src/app/globals.css`.
+1. Replace starter docs in `content/docs`.
+2. Update branding and navigation links in `src/components/docs`.
+3. Tune metadata defaults in `src/app/layout.tsx`.
+4. Adjust visual tokens in `src/app/globals.css`.
 
 ## License
 
