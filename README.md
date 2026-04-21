@@ -6,14 +6,19 @@
 	</picture>
 </p> -->
 
-<p align="center">
-	<strong>KlyvantaDocs</strong><br />
-	Design-forward docs starter for product teams and open-source maintainers.
-</p>
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/homepage_banner.png" alt="repo_banner" width="760px" />
 </p>
+
+<!-- <p align="center">
+	<strong>KlyvantaDocs</strong><br />
+	Design-forward docs starter for product teams and open-source maintainers.
+</p> -->
+<!-- 
+<p align="center">
+	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/homepage_banner.png" alt="repo_banner" width="760px" />
+</p> -->
 
 <p align="center">
 	<a href="https://github.com/rushhiii/docs-launchpad/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/rushhiii/docs-launchpad/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white" alt="CI" /></a>
