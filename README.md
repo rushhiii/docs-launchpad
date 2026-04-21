@@ -8,7 +8,7 @@
 
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/homepage_banner.png" alt="repo_banner" width="100%" />
+	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/homepage_banner.png" alt="repo_banner" width="100%" style="border-radius: 30px;" />
 </p>
 
 <!-- <p align="center">
