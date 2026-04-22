@@ -52,7 +52,7 @@
 	<a href="#affinity-banner-workflow">Affinity Banner Workflow</a>
 </p>
 
-## Why KlyvantaDocs
+## Why KlyvantaDocs?
 
 KlyvantaDocs helps you ship premium documentation fast, with a polished docs shell, strong SEO defaults, and frictionless MDX authoring.
 
