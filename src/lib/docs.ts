@@ -12,6 +12,7 @@ export type TocItem = {
 export type DocPage = {
   slug: string[];
   slugPath: string;
+  sourceRelativePath: string;
   title: string;
   description: string;
   tags: string[];
@@ -433,6 +434,7 @@ const loadDocs = cache(async (): Promise<DocPage[]> => {
       return {
         slug: safeSlug,
         slugPath: safeSlug.join('/'),
+        sourceRelativePath: relativePath.replace(/\\/g, '/'),
         title,
         description: pickFrontmatterString(frontmatter.description) || '',
         tags: parseFrontmatterTags(frontmatter.tags),

@@ -152,4 +152,10 @@ To keep this repository reliable, product-focused, and easy to maintain at scale
 
 ## License
 
-See [MIT LICENSE](./LICENSE).
+MIT License. See [LICENSE](./LICENSE).
+
+<!-- <p align="center">
+  <a href="https://starchart.cc/rushhiii/klyvanta-docs">
+    <img alt="Stargazers over time" src="https://starchart.cc/rushhiii/klyvanta-docs.svg" />
+  </a>
+</p> -->

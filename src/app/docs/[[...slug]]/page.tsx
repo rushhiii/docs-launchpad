@@ -3,6 +3,7 @@ import { DocsToc } from '../../../components/docs/Toc';
 import { FloatingThemeToggle } from '@/components/docs/FloatingThemeToggle';
 import { ContentTocToggle } from '@/components/docs/ContentTocToggle';
 import { DocPageActions } from '@/components/docs/DocPageActions';
+import { Edit3 } from 'lucide-react';
 import {
   getAllDocSlugs,
   getDocBySlug,
@@ -210,6 +211,9 @@ export default async function DocsPage({
   const hasToc = doc.toc.length > 0;
   const titleIcon = inferDocIconName(doc.section, doc.slugPath);
 
+  const githubEditBase = 'https://github.com/rushhiii/docs-launchpad/edit/main/content/docs/';
+  const editUrl = `${githubEditBase}${doc.sourceRelativePath}`;
+
   const tocIdsByBase = new Map<string, string[]>();
   for (const item of doc.toc) {
     const baseId = slugifyHeading(item.text) || 'section';
@@ -305,6 +309,16 @@ export default async function DocsPage({
                 <p className="doc-kicker">{doc.section}</p>
                 <div className="doc-header-controls">
                   {hasToc ? <ContentTocToggle /> : null}
+                  <a
+                    href={editUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="doc-edit-link doc-edit-icon"
+                    aria-label="Edit this page on GitHub"
+                    title="Edit this page on GitHub"
+                  >
+                    <Edit3 aria-hidden="true" />
+                  </a>
                   <DocPageActions
                     slugPath={doc.slugPath}
                     className="doc-header-page-actions"
