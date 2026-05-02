@@ -142,7 +142,7 @@ export async function generateMetadata({
   const canonicalPath = `/docs/${doc.slugPath}`;
   const description = doc.description || `Documentation page for ${doc.title}.`;
   const title = `${doc.title} | Docs Launchpad`;
-  const socialImage = doc.bannerImage || '/favion.ico';
+  const socialImage = doc.bannerImage || '/favicon.ico';
 
   return {
     title: doc.title,
