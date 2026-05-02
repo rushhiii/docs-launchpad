@@ -43,7 +43,7 @@ const siteName = 'Docs Launchpad';
 const defaultTitle = `${siteName} Documentation`;
 const defaultDescription =
   'A reusable documentation starter for any software project with Next.js, TypeScript, Tailwind CSS, and MDX.';
-const defaultOgImage = '/favicon.ico';
+const defaultOgImage = '/favion.ico';
 const defaultKeywords = [
   'documentation',
   'developer documentation',
@@ -113,9 +113,9 @@ export const metadata: Metadata = {
       : {}),
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
-    apple: '/favicon.ico',
+    icon: '/favion.ico',
+    shortcut: '/favion.ico',
+    apple: '/favion.ico',
   },
 };
 
