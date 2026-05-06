@@ -20,7 +20,7 @@
 	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/repo_banner.png" alt="repo_banner" width="100%" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
 	<a href="https://github.com/rushhiii/docs-launchpad/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/rushhiii/docs-launchpad/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white" alt="CI" /></a>
 	<a href="https://github.com/rushhiii/docs-launchpad/stargazers"><img src="https://img.shields.io/github/stars/rushhiii/docs-launchpad?label=stars" alt="GitHub stars" /></a>
 	<a href="https://github.com/rushhiii/docs-launchpad/network/members"><img src="https://img.shields.io/github/forks/rushhiii/docs-launchpad?label=forks" alt="GitHub forks" /></a>
@@ -29,7 +29,7 @@
 	<a href="https://github.com/rushhiii/docs-launchpad/commits/main"><img src="https://img.shields.io/github/last-commit/rushhiii/docs-launchpad?label=last%20commit" alt="Last commit" /></a>
 	<a href="https://github.com/rushhiii/docs-launchpad/graphs/commit-activity"><img src="https://img.shields.io/github/commit-activity/m/rushhiii/docs-launchpad?label=commit%20activity" alt="Commit activity" /></a>
 	<a href="https://github.com/rushhiii/docs-launchpad"><img src="https://img.shields.io/github/repo-size/rushhiii/docs-launchpad?label=repo%20size" alt="Repository size" /></a>
-</p>
+</p> -->
 
 <p align="center">
 	<img src="https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white" alt="Next.js" />
@@ -44,11 +44,11 @@
 </p>
 
 <p align="center">
-	<a href="#quick-start">Quick Start</a> |
-	<a href="#features">Features</a> |
-	<a href="#project-structure">Project Structure</a> |
-	<a href="#community-and-governance">Community</a> |
-	<a href="#deployment">Deployment</a> |
+	<a href="#quick-start">Quick Start</a> •
+	<a href="#features">Features</a> •
+	<a href="#project-structure">Project Structure</a> •
+	<a href="#community-and-governance">Community</a> •
+	<a href="#deployment">Deployment</a> •
 	<a href="#affinity-banner-workflow">Affinity Banner Workflow</a>
 </p>
 
